@@ -1,2 +1,3 @@
 # uv-skill
-面向 UV 定制加工、图案设计和电商打样，协助从客户照片、PSD 或分层 TIFF 中提取完整印花，保留边框与细节。支持参考图补全、扫描稿 1:1 套位和局部修正，输出透明 PNG、TIFF 及底白参考蒙版，让来图处理与印前准备更清晰，并实现自动操控打印软件进行一体化打印技术工作流。
+Designed for UV custom processing, pattern design, and e-commerce sampling, it assists in extracting complete prints from customer photos, PSDs, or layered TIFFs while preserving borders and details. It supports reference image completion, scanned draft 1:1 alignment, and local corrections. Outputs include transparent PNGs, TIFFs, and white-bottom reference masks, making image processing and pre-press preparation clearer. It also enables automated control of printing software to achieve an integrated printing workflow.
+
