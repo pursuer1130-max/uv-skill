@@ -1,6 +1,6 @@
 {
   "name": "industrial-uv-print-troubleshooter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "UV prepress, Photoshop and Hoson PrintExp workflows with read-only defaults and action-specific authorization.",
   "author": {
     "name": "Industrial UV AI Developer"
@@ -15,8 +15,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "UV 视觉打印助手（U盘版）",
-    "shortDescription": "99 元/台，一次性设备授权；支持 UV 制版、视觉扫描与打印流程。",
-    "longDescription": "人民币 99 元/台，一次性设备授权，暂未接入在线收款。支持 UV 制版、图稿检查、视觉扫描、模板贴合、验证与当前明确授权的单次打印流程。有效设备许可证另行签发，本机许可和客户资料不随公开仓库分发。",
+    "shortDescription": "999 元/台，一次性设备授权；在线收款待开通。",
+    "longDescription": "人民币 999 元/台，一次性设备授权，在线收款入口待开通。支持 UV 制版、图稿检查、视觉扫描、模板贴合、验证与当前明确授权的单次打印流程。有效设备许可证另行签发，本机许可和客户资料不随公开仓库分发。",
     "developerName": "Industrial UV AI Developer",
     "category": "Productivity",
     "capabilities": [
