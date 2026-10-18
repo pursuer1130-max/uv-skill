@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-18T05:34:09.822Z",
+  "version": "0.1.1",
+  "distribution": "github-public",
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "85a5079f974382f65209a67ee0a56c1dc316766bcfa5a5c0c87c747dc88f38e6"
+    },
+    {
+      "path": "DEPENDENCIES.json",
+      "sha256": "aa36b78b5734899040b2c60a777c7e9f1d8fd90872310042bdbbaa5e7215aca3"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/base.cjs",
+      "sha256": "0a5b88e02cabe4dd1a51deef9266dc83f5cd48ceb071614bba82d39083603e60"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/ikap/index.cjs",
+      "sha256": "41b79201ddd5254476ce91bf5b91c6a3267c748fe0a7ccc05b73392dd55ec81a"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/photoshop/index.cjs",
+      "sha256": "2bef86d85bd009f0f0af42e61391f5d2d519b46351eb6d781765590788a3ce9f"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printer_board/index.cjs",
+      "sha256": "8e985beec3750167a2bbc6abdca1e971c712c83916480c3c370ed1b5996b0fdf"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/desktop-compat/Build-DesktopCompat.ps1",
+      "sha256": "f3ae2a929484718ccbdb077366cb1f9a1cbbfb6bf17aeedaf7f7b7631a5d193b"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/desktop-compat/MenuCompat.cs",
+      "sha256": "c07352949702ea427a6d8eba161d3e5ddb12f21cbb7dc61534006bd34995e5b1"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/desktop-compat/prepare-command.cjs",
+      "sha256": "ea551622f7525c03f64f4dc02133ebd4bae440689a9f55b65e118d369e259cdb"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/desktop-compat/review-current-device.cjs",
+      "sha256": "87f94a7c6005331dfd82ab6808f1f518b3e3f213e8de1b283565f5cb229d7799"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/desktop-compat/runtime-manifest.json",
+      "sha256": "a32961d62e894dda1418a3d55fdbea4cea3a21ec64c12ffbf301844968a1f565"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/desktop-compat/Stage-DesktopCompat.ps1",
+      "sha256": "4591d3ad18d9692c1c88f027bb51006866a45737462f15f9a83997469f652bd3"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/desktop-compat/UVMenuCompat.exe",
+      "sha256": "e3e21b4441d3829428adb8548a0429208865ff2d982828b47f0224cc31bdf12a"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/index.cjs",
+      "sha256": "6ed6872ce63f8c5697c3fd53b8a2386a74e8b4a68f27be428e46f8a0cee63a05"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/printexp/sky.cjs",
+      "sha256": "9d04754d0d5ba096dc3c64ab7540c7b707187b602f1842e9b8c1d8c58563284a"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/adapters/riin/index.cjs",
+      "sha256": "b75e671305c3aff38847d2169c3de8754e707b640cba30c5fe92992e247250f7"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/agents/openai.yaml",
+      "sha256": "aa20b3741ad6bec89d5bc810af48cbc1e6fd378a9ea0801ac4920810a777c986"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/knowledge/errors/catalog.json",
+      "sha256": "65040dde57d08d4a70f01d8de468975b8d590be14beff9d8f34d7cbdace95be4"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/knowledge/machines/schema.json",
+      "sha256": "07666887df5f314f56e9ca82a52d97adc34a6eda932cc57f0daaa2ed45412fa0"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/knowledge/materials/schema.json",
+      "sha256": "286aa4e3c450a259d47ba3b89fd77f47b5f9412113572467a1a7072d981a819f"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/knowledge/validated/index.md",
+      "sha256": "16a6a6a8b06c2282c3748f72eaad435421b97e481cf24b81fff1d15896f09de3"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/knowledge/validated/policy.json",
+      "sha256": "b4e203df92acc7daf00cb6304921c8a1f84b7c581765aa53ebd26ff9f23bc3f9"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/license/public_key.txt",
+      "sha256": "e3159bb801bfd8fba71af0dbbcdca8a19d0a4d840bd19aad1a2de7da55da4e30"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/license/README.md",
+      "sha256": "aa033a859da74e5143885306cbc48dd7d9e9783d79d1c5503908dba4f9659830"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/automatic-learning.md",
+      "sha256": "cf8d49db7dfdf5f85c926075264c125cb2ee6b8e23672c1fe75a49bb92245846"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/codex-usb-install.md",
+      "sha256": "03e5f8d79002be0ab484935fa3375032682ac0f01c25cd34675dbd83f6ed5488"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/current-device-scope.md",
+      "sha256": "1267ab3a08363a7dd4d2a437b6d5a73a33a6423aa4ab46ac8f25ae9b24e55002"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/desktop-menu-compat.md",
+      "sha256": "04760886efba493344e9e456003eea11cb165cb352c1c68cf9d7c80f3b77c6d4"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/desktop-software-control.md",
+      "sha256": "9f16f6f2101fd4f5c1a518dacc11d8a43fba5195cbf55387cdd0dac90e629513"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/diagnosis-flow.md",
+      "sha256": "d4e430d2b8cbf9c69599482c783a54664c77c413affd8db3e4e305cec720c431"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/economy-workflow.md",
+      "sha256": "9ed335a918a012d955affc6c63b775c6cfd42786b61091a74c94ab2ae819cc6e"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/factory-connect.md",
+      "sha256": "3c60b4d4f3eaa75d53a48bc692c54c3f27e8be63a0e4b11f234d72d37d15592e"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/factory-rehearsal.md",
+      "sha256": "d0466c98f10f0971af06b00ad1ede9bea6d4164934d2912dd2634f62d322ffd7"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/fast-print-workflow.md",
+      "sha256": "eb9e1e44f946006ad5a529092800f3bb8baba46964cb2e6cb59454199c2f1c4c"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/height-lock-retirement.md",
+      "sha256": "1267ab3a08363a7dd4d2a437b6d5a73a33a6423aa4ab46ac8f25ae9b24e55002"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/import-height-workflow.md",
+      "sha256": "fc6ed12670d93836d6abb552a157db0431283370d4eb7a993b36d456e8d1bb88"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/license-design.md",
+      "sha256": "546beab296e05e4b59e236858d71921c558f998876c1ba6b551d76315e9b1942"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/local-deployment.md",
+      "sha256": "d9c3d5b4532865560b3192ea05fd63dbee1adc7243f75c49e826b9efa0545214"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/photoshop-batch-workflow.md",
+      "sha256": "4f716f156d6e48328d082af090a370157e63f13998811fd5c1baa9d4c07025ad"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/photoshop-startup-recovery.md",
+      "sha256": "fdf599a06f9a23512fbd194df6a05161c3ad68a1d739d0bca86d51bac1e0b01d"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/printexp-operations.md",
+      "sha256": "215d0cd0f6e355a8b90d234d3e3ca4249e17f75fa58f9bf08ef0250289fc8f3e"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/printexp-waveform-study.md",
+      "sha256": "fd8ac90df9a0efceacac59be554b2df78f16d038a84f42b6f640fb7e81653621"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/product-verification.md",
+      "sha256": "1733aebc8eefbaebd36558612ed5cd5e18d6d43cc06521fe9f02558c2abceee7"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/production-issues.md",
+      "sha256": "1da4ff5bc196ab1512c839e103ea29039f0fd8da935c076dd088c6f5d0ec174f"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/production-log-learning.md",
+      "sha256": "8a9b6edd2b2a454cdaa5cdcf573bcd5e1aeb15409936fd2c2d0cb1383c21d328"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/public-package.md",
+      "sha256": "c37df49e7bab2db65af541ef745d2ffc33625991f7a3aca4826e8083a6c7e7e5"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/rip-and-file-checks.md",
+      "sha256": "876be806114c51f34a2d841d42a9ad9b479b1b7f9405fdfc1a6ecf98adc07818"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/scan-maintenance-workflow.md",
+      "sha256": "8c45c18818f38cc0e45a34531badeb7390bff08483c235fe7e03d88cb24c6fa3"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/site-readonly-workflow.md",
+      "sha256": "296e59135d35582cd4e929227fe63a3947fe9dfb8c0487982afcd8bbe89cf7c8"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/uv-flatbed-troubleshooting.md",
+      "sha256": "2da8bb96d1eecef883a90d1780a2a3045c3c21108909043b542abd04043dc7a2"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/uv-master-sources.md",
+      "sha256": "b4e8378fa2e75890e635ceb0bf25c83c4f817f286a4eca7151da16cbd476a581"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/uv-master-workflow.md",
+      "sha256": "19669bb1ca9a8213533ae8997ec17f75cf209587a133435af1080a7f7cd950e4"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/visual-scan-compat.md",
+      "sha256": "358e0c949b4313381396cd79c3338f81d78c81cab901a0017837480422e1e991"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/references/visual-selection-print.md",
+      "sha256": "d2b029f70116d526b36f31b145693d4a62d0a3800138e5987d5414140365a567"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/create_high_dpi_demo.py",
+      "sha256": "61b3ec192ef5ad7b5f7b8eb070d0d7fec28e572b3edf34b6b673d133ae98b20b"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/create_ps_circle_demo.jsx",
+      "sha256": "b55756729a8081d8fd5baf51f7476b587b1f4305fbf5288d8e53b3a7ca21f6b1"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/create_ps_emboss_demo.jsx",
+      "sha256": "c0b2891b04fe19fbd2b5e2b85aea6d255c6e489437a4fc2f8d9a7fa115fe7ac9"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/create_spot_varnish_demo.py",
+      "sha256": "0902845fcc962077b59fdefc50b8fa8d2e84585f483ce90003b4b7d143006d84"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/desktop_uv_helper.ps1",
+      "sha256": "90d8bab74efc200f19caef4e814eb9b4dca3b64d6823b1cb9c651e4a301bb31e"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/make_license.py",
+      "sha256": "930a6cc0ddd07f0613b61e57ab9798f181b2043d5922d620271568988b9e8fce"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/photoshop_session.ps1",
+      "sha256": "41daee2a9fda05bbcf58c66b91cc9fcf7b8f986bf257d8969ed2d0b075f0d99a"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/preflight_artwork.py",
+      "sha256": "4dd39fb9f88b1fae66d06a50ed2a7d080bc4e04a698af1a390257c356551d6ed"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/printexp_probe.ps1",
+      "sha256": "2ff6cee0fe7bfe0180b022a679184746048a8afbcbb1df9dc2faeedb7ce79efa"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/ps_menu_audit_retest.jsx",
+      "sha256": "23439bd2c81ace9861d0135e75ae53af2b2f3fa32036dfa3588214cf2662e619"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/ps_menu_audit.jsx",
+      "sha256": "a5c8b0641423a637aaffd0a78a55282076612b32657a6485dad27b72c648dbd6"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/ps_print_batch.jsx",
+      "sha256": "6fb7b8401b60184151a1bbad07f363efb74641588d3e4c852cf88c5709f923b5"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/ps_smoke_test.jsx",
+      "sha256": "26a63faac68d49e5d1f604ef5a122c812064fb59c8299b54ddf8dcf9e655771b"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/run_ps_batch.ps1",
+      "sha256": "7f3b27ac0485c05b72d422726d1ff1d8a524d68842b2f858a14227ea15b2b5d6"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/summarize_ps_menu_audit.py",
+      "sha256": "6ae59fee710cb0ad6bf94e60f53cf97cdbbc97049d08df1438603f814f302c6f"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_audit.cjs",
+      "sha256": "9d71c8c71b6d71cb4d10e0b5cb731de687b8fe224efb6a5fd7ba323d41aacfaa"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_connect.cjs",
+      "sha256": "db3904309501459f0fe767f9ea6fadda3887e529369036011576a0a6302e3f3b"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_core.cjs",
+      "sha256": "75fd6a0616e4a790c55fa9e2601d02285f43d12de12d1274b95140edd98838fd"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_desktop_attach.cjs",
+      "sha256": "876a5931d5f42b3327a7b7681e2d128b5075bdce030b46b1cbfe170294716f49"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_desktop_session.cjs",
+      "sha256": "cb42d14fde07280568e85efbf26bcfc26e64bf341280eb536fceeada923c070d"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_discover.ps1",
+      "sha256": "d89ac1b033316b4ebfa657d7b6941557bc8c5121c2f5d8eb6fc68063c52adc33"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_economy.cjs",
+      "sha256": "12d6826603c364614f9deb332b27e0889113f7108bce58d53b136af4c92159a3"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_fast_preflight.cjs",
+      "sha256": "9593377d3f92b6151cfc05345f3465eedad3576323c9bcd4a344f4552db3fd83"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_hoson_uia_probe.ps1",
+      "sha256": "b49e5fac4a7daefbebe102ee7b8ad75d2de04f0d1f79015a15c21f8e709270aa"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_hybrid.cjs",
+      "sha256": "70f23105a373756687ddca0588c1d511fc3bbe8fcbb944423cad4a391c43bbe9"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_jpeg_to_tiff.py",
+      "sha256": "552c487d331005258ee9ad50e6859336d6bca0caf66ccbc63392f90db268255c"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_learning_update.cjs",
+      "sha256": "6d6dfc161fb6dc8ecf06840578c4d10d7811a5fec96e9ba086b1b2e56735124e"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_master.cjs",
+      "sha256": "9b932b7922ba11dabfd86c391d0d11aa0d82f50693975a731384f56f59f4d767"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_photoshop_export.jsx",
+      "sha256": "aef4fd72071f7c6fa63e2944179fc318bf813eded3738092cd0a8e1c58ae41fc"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_prepress.jsx",
+      "sha256": "d88ef12a744bddb8398351a38d57c792a60570da3110e03da4b4bfc452b5a0e1"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_printexp_logs.cjs",
+      "sha256": "842ae64e0fe6a303016431b8eab1af55edc5fa8728502b8973c3454c5eadbdb6"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_printexp_scan.cjs",
+      "sha256": "4bfb1496427783d0cfa0d32cc660d209a82efa7634cb96305e25d7190e20d701"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_rehearse.cjs",
+      "sha256": "4b955763da8001e521e18831f25bfc221dfab2b59a32b92c7a152b4cb7afa180"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_scan_readiness.cjs",
+      "sha256": "097944875499cbae8bfca965eda8062fe820355ea8e629f72cb05d460d39f6fe"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_simulate.cjs",
+      "sha256": "690f5bcb76cb8a95e457513e357f6c39fe8fd27dd25d8ded6eff07ec37e33d04"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_site_preflight.cjs",
+      "sha256": "92ada9e8d42f30becd35c773c4c0ad33abd7adc699a50e7509d4be14971e1159"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_site_readonly.ps1",
+      "sha256": "c74fd7604eaae4bb951b5e7f6f07b6dfd3d1e590b645dc7feaadf39e27628565"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_startup_probe.ps1",
+      "sha256": "edcb28a3b2ecb3cc9d6a8f854848e76f74a3f3fbc3f1697148ce73eaa4caf470"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/uv_template_guard.cjs",
+      "sha256": "5939fc556ee36bf9db98b6072dbbe3a3e1726801563f8b87657ae7bad6b5de08"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/verify_license.py",
+      "sha256": "bf2bfe34c61d113151cedc2f1a1545840c7f4817244e8de8fe223b555646836a"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/scripts/verify_ps_batch.py",
+      "sha256": "3f120e111d7af051202a704c957bf5f58c795d00316db4efced604c49b3d0d8d"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/SKILL.md",
+      "sha256": "72c2c66c1223edfa5c0726b08eb03d2ee9032a0fe31da0711a2dc0216815bfe8"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/desktop_command_lifecycle.test.cjs",
+      "sha256": "b85cde4bbb83ef7528fb0ec3bf9468fa49460c09726682e0a5642cdcd9784aed"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/desktop_height_commands.test.cjs",
+      "sha256": "85987fca1482b1162478e8a1e62660a4b690279c96f273acab49390463efff21"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/desktop_import_commands.test.cjs",
+      "sha256": "f734adc96872af898fd5fecf4268e588ff7bd4e2bfe6ba4abb30d6852e5a6c32"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/desktop_product_commands.test.cjs",
+      "sha256": "f748e195ee3fa797acbc6c9bd2605a86e11a494ea07a007f0af927da713105aa"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/desktop_selection_print_commands.test.cjs",
+      "sha256": "7f7f8c88744222d70a4b7326177e945027c76362f9749d98edd3b150ef3d1f14"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/desktop_visual_commands.test.cjs",
+      "sha256": "2c158bed7fd72e75a24fdace4db33a05a5f93fd191359c032d3e331e3e0b1d11"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/desktop_z_panel_commands.test.cjs",
+      "sha256": "e52caa78f0200b1b80f0cdf1844edd38470b5af3871d9faffb39045cd02ccde2"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/historical_height_retirement.test.cjs",
+      "sha256": "ec92136d2a6ee3342f884b1a15091d3ee2b15d9b1818160e353a93df38efb538"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/native_z_idle_contract.test.cjs",
+      "sha256": "6865ec3b4d9fb2ac527413b361bdc3f336120173e6b78770a31f681a28357c5a"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/retired_height_archive_loadcheck.test.cjs",
+      "sha256": "a765b87068413ef8334e772cb22fdbb801b5d06db3c50ab29ed2f7d906799ce6"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/template_guard.test.cjs",
+      "sha256": "f9adb1234ea5a3cd9ee7dddf7f6d2ecc64337e0604777875c5f5b1edff5c9268"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_connect.test.cjs",
+      "sha256": "539ca85f5d71c056788658a695fccdf96ce853507b1b5d3f141d2f31dc47ddcd"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_desktop_attach.test.cjs",
+      "sha256": "6a94f6f62699c7042543308c3cbb003fdd4998bc2b346e0089c88bd87e16fc85"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_desktop_session.test.cjs",
+      "sha256": "f0fbb7bf063f6ca1a7e17cf40f49cc29ef916bfe629c13efa2980c7017e523fa"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_economy.test.cjs",
+      "sha256": "9deb69cd0b1a415105de0d6f9938683200ca3e477eca056cd4d420d102a1a4e1"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_fast_preflight.test.cjs",
+      "sha256": "da2f2116b1a4328f0bc9aab78ead48a864230c32461b1b077aedbb1aa31a404b"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_learning_update.test.cjs",
+      "sha256": "f2cd0cc3fbb93600f24e1cdf86315199479fdb343dd04ff89816b4cad8148523"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_printexp_logs.test.cjs",
+      "sha256": "019e8fc01134d0c57616fef03e17b3cb1983363f24161e7dea8378db6787990e"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_printexp_scan.test.cjs",
+      "sha256": "f0f6fc503fe7b5cd825a4f2bccc2aad276aa2a2894e3b1b6382f4c9adc471287"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_scan_readiness.test.cjs",
+      "sha256": "02ed9068d7dc87d168e4b3742e9125f4df62a3fa24b1bd8373ad50efd0f6dd6c"
+    },
+    {
+      "path": "skills/industrial-uv-print-troubleshooter/tests/uv_site_preflight.test.cjs",
+      "sha256": "233bef228dc7af9cba8a1fa4e61133d0d02c2bf0b85b17ea6c2e28a9c9c840e1"
+    },
+    {
+      "path": "Start-UV-ReadOnly.cmd",
+      "sha256": "990b108a303c6f4a55e8f9f6c6e0d3ffb0786aa18cc4dec3ed3ff5075875de62"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"required":["id","printerModel","boardModel","softwareVersion","source","verificationLevel"],"optional":["receiverHost","receiverPort","acceptedPayload","inkChannelMapping"],"unknownValues":null,"autoApply":false}

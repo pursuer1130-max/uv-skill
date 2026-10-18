@@ -1,0 +1,1 @@
+{"required":["id","material","profileIdentity","inkSystem","source","verificationLevel"],"optional":["adhesionResult","whiteMask","varnishMask","viewingSide"],"autoApply":false,"note":"DPI and cure settings cannot be generalized from one factory file."}

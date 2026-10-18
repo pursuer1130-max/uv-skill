@@ -1,0 +1,4 @@
+interface:
+  display_name: "Industrial UV Print Troubleshooter"
+  short_description: "Diagnose UV production, Photoshop and PrintExp issues."
+  default_prompt: "Use $industrial-uv-print-troubleshooter to diagnose this UV production issue and verify the next action."

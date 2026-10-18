@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "name": "MenuCompat.cs",
+      "sha256": "c07352949702ea427a6d8eba161d3e5ddb12f21cbb7dc61534006bd34995e5b1"
+    },
+    {
+      "name": "UVMenuCompat.exe",
+      "sha256": "e3e21b4441d3829428adb8548a0429208865ff2d982828b47f0224cc31bdf12a"
+    },
+    {
+      "name": "prepare-command.cjs",
+      "sha256": "ea551622f7525c03f64f4dc02133ebd4bae440689a9f55b65e118d369e259cdb"
+    },
+    {
+      "name": "Build-DesktopCompat.ps1",
+      "sha256": "f3ae2a929484718ccbdb077366cb1f9a1cbbfb6bf17aeedaf7f7b7631a5d193b"
+    }
+  ]
+}

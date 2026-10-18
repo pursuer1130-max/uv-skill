@@ -1,0 +1,34 @@
+{
+  "name": "industrial-uv-print-troubleshooter",
+  "version": "0.1.1",
+  "description": "UV prepress, Photoshop and Hoson PrintExp workflows with read-only defaults and action-specific authorization.",
+  "author": {
+    "name": "Industrial UV AI Developer"
+  },
+  "license": "Proprietary",
+  "keywords": [
+    "industrial-uv",
+    "printer",
+    "troubleshooting",
+    "license"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UV 视觉打印助手（U盘版）",
+    "shortDescription": "U盘版 UV 制版、视觉扫描、模板检查与授权打印流程。",
+    "longDescription": "UV 制版、图稿检查、视觉扫描、模板贴合、验证与当前明确授权的单次打印流程。包含通用工具和可审阅源码；本机许可和客户资料不随公开仓库分发。",
+    "developerName": "Industrial UV AI Developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "检查当前 UV 作业的前置条件、文件完整性和本机许可。",
+      "使用 UV 视觉打印助手处理当前明确授权的作业。"
+    ],
+    "brandColor": "#14746F"
+  },
+  "repository": "https://github.com/pursuer1130-max/uv-skill",
+  "homepage": "https://github.com/pursuer1130-max/uv-skill"
+}

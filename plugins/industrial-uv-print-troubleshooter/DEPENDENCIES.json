@@ -1,0 +1,28 @@
+{
+  "requiredForCore": {
+    "Node.js": "18 or later; built-in modules only",
+    "Windows PowerShell": "5.1 or compatible runtime under existing execution policy"
+  },
+  "desktopRuntime": {
+    "platform": "Windows x64 interactive desktop",
+    "framework": ".NET Framework 4.x Windows Forms, Drawing and UIAutomation",
+    "source": "skills/industrial-uv-print-troubleshooter/adapters/printexp/desktop-compat/MenuCompat.cs"
+  },
+  "optional": {
+    "software": [
+      "Photoshop",
+      "Hoson PrintExp",
+      "RIIN",
+      "IKapCViewer"
+    ],
+    "python": [
+      "Pillow for optional artwork helpers",
+      "cryptography for optional license tools"
+    ],
+    "computerUse": "Separately installed supported Computer Use provider"
+  },
+  "newNpmDependencies": [],
+  "thirdPartyVendorBinariesBundled": false,
+  "siteEvidenceBundled": false,
+  "runtimeLicenseBundled": false
+}

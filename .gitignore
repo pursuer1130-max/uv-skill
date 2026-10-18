@@ -1,0 +1,21 @@
+# Device licenses and signing material
+**/license/license.json
+**/license/devices/
+**/*PRIVATE_KEY*
+**/*private_key*
+.env
+.env.*
+*.pem
+*.key
+# Local production data
+**/memory/
+**/site-config/
+**/knowledge/raw/
+**/runs/
+**/command.json
+**/viewport-private.png
+**/riin-driver-candidates/
+__pycache__/
+*.pyc
+node_modules/
+work/

@@ -1,0 +1,11 @@
+[
+  {"category":"RIP_FAILURE","causes":["unsupported input","missing authorized profile","RIP error"],"check":"Read first RIIN error, exact input hash and output settings; do not resubmit to a watched folder."},
+  {"category":"PRINTEXP_CONNECTION","causes":["wrong active installation","board network unavailable","receiver not listening"],"check":"Read process path, Project.ini sections, existing TCP table and fresh application log separately."},
+  {"category":"FILE_FORMAT","causes":["artwork sent without RIP","corrupt/truncated file","unsupported channels"],"check":"Inspect magic, hash, Photoshop reopen and receiver format evidence."},
+  {"category":"DIMENSIONS","causes":["pixel/mm confusion","DPI metadata mismatch","RIP scaling"],"check":"Compare source pixels, DPI-derived mm and RIP task size."},
+  {"category":"WHITE_INK","causes":["spot mapping mismatch","mask polarity mismatch","ink/nozzle fault"],"check":"Read source channels and RIP separation preview; channel names alone prove no mapping."},
+  {"category":"NOZZLE_STATE","causes":["clogging","ink starvation","unknown nozzle baseline"],"check":"Review existing nozzle test and operator observations; new nozzle tests require machine confirmation."},
+  {"category":"VISION_POSITION","causes":["stale capture","calibration mismatch","fixture displacement"],"check":"Read image timestamp, calibration identity and fixture evidence; do not change camera settings."},
+  {"category":"BOARD_CONNECTION","causes":["physical link down","configured endpoint mismatch","board not ready"],"check":"Read device/application state; do not send unknown commands or rewrite network settings."},
+  {"category":"TASK_INTERRUPTED","causes":["connection lost","operator pause","application failure"],"check":"Read exact job state and received-byte outcome before any retry; cancellation is not pause."}
+]
